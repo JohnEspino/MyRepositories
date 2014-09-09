@@ -8272,8 +8272,18 @@ false
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
+                name="startup"
+                path="C:\MyEA\app\src\main\res\drawable-hdpi\startup.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\MyEA\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="startup"
+                path="C:\MyEA\app\src\main\res\drawable-mdpi\startup.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
@@ -8282,8 +8292,18 @@ false
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
+                name="startup"
+                path="C:\MyEA\app\src\main\res\drawable-xhdpi\startup.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\MyEA\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="startup"
+                path="C:\MyEA\app\src\main\res\drawable-xxhdpi\startup.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
@@ -8292,8 +8312,48 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_my_activity2"
+                path="C:\MyEA\app\src\main\res\layout\activity_my_activity2.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_my_activity3"
+                path="C:\MyEA\app\src\main\res\layout\activity_my_activity3.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_my_activity4"
+                path="C:\MyEA\app\src\main\res\layout\activity_my_activity4.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_my_activity5"
+                path="C:\MyEA\app\src\main\res\layout\activity_my_activity5.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="my"
                 path="C:\MyEA\app\src\main\res\menu\my.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="my_activity2"
+                path="C:\MyEA\app\src\main\res\menu\my_activity2.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="my_activity3"
+                path="C:\MyEA\app\src\main\res\menu\my_activity3.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="my_activity4"
+                path="C:\MyEA\app\src\main\res\menu\my_activity4.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="my_activity5"
+                path="C:\MyEA\app\src\main\res\menu\my_activity5.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -8339,46 +8399,6 @@ false
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
-            <file
-                name="activity_my_activity2"
-                path="C:\MyEA\app\src\main\res\layout\activity_my_activity2.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="my_activity2"
-                path="C:\MyEA\app\src\main\res\menu\my_activity2.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_my_activity3"
-                path="C:\MyEA\app\src\main\res\layout\activity_my_activity3.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="my_activity3"
-                path="C:\MyEA\app\src\main\res\menu\my_activity3.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_my_activity4"
-                path="C:\MyEA\app\src\main\res\layout\activity_my_activity4.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="my_activity4"
-                path="C:\MyEA\app\src\main\res\menu\my_activity4.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_my_activity5"
-                path="C:\MyEA\app\src\main\res\layout\activity_my_activity5.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="my_activity5"
-                path="C:\MyEA\app\src\main\res\menu\my_activity5.xml"
-                qualifiers=""
-                type="menu" />
         </source>
         <source path="C:\MyEA\app\build\generated\res\rs\debug" />
         <source path="C:\MyEA\app\build\generated\res\generated\debug" />

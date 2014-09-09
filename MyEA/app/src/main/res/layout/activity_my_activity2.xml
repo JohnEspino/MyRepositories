@@ -38,7 +38,8 @@
             android:text="Fire"
             android:id="@+id/Fire"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ffe90f00" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -46,7 +47,8 @@
             android:text="Earthquake"
             android:id="@+id/Earth"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ff8c5e12" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -54,7 +56,8 @@
             android:text="Tsunami"
             android:id="@+id/Water"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ff1423a9" />
 
         <Button
             android:layout_width="wrap_content"

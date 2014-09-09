@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.project.MyEA.myea.MyActivity2"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter an Emergency Situation"
+        android:id="@+id/Choice"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="26dp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/Choice"
+        android:layout_alignLeft="@+id/Choice"
+        android:layout_alignStart="@+id/Choice"
+        android:layout_marginTop="37dp"
+        android:id="@+id/Radio1"
+        android:minHeight="50dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fire"
+            android:id="@+id/Fire"
+            android:checked="false"
+            android:textSize="30dp"
+            android:textColor="#ffe90f00" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earthquake"
+            android:id="@+id/Earth"
+            android:checked="false"
+            android:textSize="30dp"
+            android:textColor="#ff8c5e12" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tsunami"
+            android:id="@+id/Water"
+            android:checked="false"
+            android:textSize="30dp"
+            android:textColor="#ff1423a9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit_area"
+            android:layout_gravity="center_horizontal" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/MyEA/app/src/main/res/layout/activity_my_activity2.xml -->

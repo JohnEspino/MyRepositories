@@ -927,24 +927,30 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int startup=0x7f020058;
+        public static final int app_icon=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
+        public static final int ic_launcher1=0x7f020059;
     }
     public static final class id {
+        public static final int Call=0x7f07005b;
         public static final int CallDept=0x7f070048;
         public static final int Choice=0x7f070040;
         public static final int Earth=0x7f070043;
-        public static final int EarthDept=0x7f07004a;
+        public static final int EarthCall=0x7f07004f;
+        public static final int EarthDept=0x7f070051;
         public static final int Fire=0x7f070042;
         public static final int FireCall=0x7f070045;
         public static final int FireDept=0x7f070047;
         public static final int MyEA=0x7f07003c;
+        public static final int ND=0x7f070049;
+        public static final int RCOne=0x7f070055;
+        public static final int RCTwo=0x7f07005e;
         public static final int Radio1=0x7f070041;
         public static final int Title=0x7f07003d;
         public static final int TitleSub=0x7f07003e;
         public static final int Water=0x7f070044;
-        public static final int WaterCall=0x7f07004b;
-        public static final int WaterDept=0x7f07004d;
+        public static final int WaterCall=0x7f070058;
+        public static final int WaterDept=0x7f07005a;
         public static final int action_bar=0x7f07001c;
         public static final int action_bar_activity_content=0x7f070014;
         public static final int action_bar_container=0x7f07001b;
@@ -956,10 +962,17 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f07004e;
+        public static final int action_settings=0x7f070062;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int always=0x7f07000f;
         public static final int beginning=0x7f07000a;
+        public static final int callMTH=0x7f070054;
+        public static final int callND=0x7f07004b;
+        public static final int callPCG=0x7f07005d;
+        public static final int callPV=0x7f070050;
+        public static final int callRC=0x7f07004e;
+        public static final int callRC1=0x7f070057;
+        public static final int callRC2=0x7f070060;
         public static final int checkbox=0x7f07002d;
         public static final int collapseActionView=0x7f070011;
         public static final int default_activity_button=0x7f070028;
@@ -971,6 +984,7 @@ containing a value of this type.
         public static final int enterbutton=0x7f07003f;
         public static final int expand_activities_button=0x7f070026;
         public static final int expanded_menu=0x7f07002c;
+        public static final int fail=0x7f070061;
         public static final int home=0x7f070017;
         public static final int homeAsUp=0x7f070005;
         public static final int icon=0x7f07002a;
@@ -979,15 +993,22 @@ containing a value of this type.
         public static final int listMode=0x7f070001;
         public static final int list_item=0x7f070029;
         public static final int middle=0x7f07000b;
+        public static final int mnltraffic=0x7f070052;
         public static final int never=0x7f07000d;
         public static final int none=0x7f070009;
         public static final int normal=0x7f070000;
-        public static final int num1=0x7f070046;
-        public static final int num12=0x7f070049;
-        public static final int num13=0x7f07004c;
+        public static final int numBFP=0x7f070046;
+        public static final int numMNL=0x7f070053;
+        public static final int numMWH=0x7f070059;
+        public static final int numND=0x7f07004a;
+        public static final int numPCG=0x7f07005c;
+        public static final int numRC=0x7f07004d;
+        public static final int numRC1=0x7f070056;
+        public static final int numRC2=0x7f07005f;
         public static final int progress_circular=0x7f070018;
         public static final int progress_horizontal=0x7f070019;
         public static final int radio=0x7f07002f;
+        public static final int rc=0x7f07004c;
         public static final int search_badge=0x7f070032;
         public static final int search_bar=0x7f070031;
         public static final int search_button=0x7f070033;
@@ -1044,7 +1065,8 @@ containing a value of this type.
         public static final int activity_my_activity3=0x7f03001a;
         public static final int activity_my_activity4=0x7f03001b;
         public static final int activity_my_activity5=0x7f03001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int activity_my_activity6=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
         public static final int my=0x7f0c0000;
@@ -1052,6 +1074,7 @@ containing a value of this type.
         public static final int my_activity3=0x7f0c0002;
         public static final int my_activity4=0x7f0c0003;
         public static final int my_activity5=0x7f0c0004;
+        public static final int my_activity6=0x7f0c0005;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -1074,6 +1097,7 @@ containing a value of this type.
         public static final int title_activity_my_activity3=0x7f0a0011;
         public static final int title_activity_my_activity4=0x7f0a0012;
         public static final int title_activity_my_activity5=0x7f0a0013;
+        public static final int title_activity_my_activity6=0x7f0a0014;
     }
     public static final class style {
         /**  Customize your theme here. 

@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.project.MyEA.myea.MyActivity2"
-    >
+    android:background="#CCCCFF">
 
 
     <TextView
@@ -16,20 +16,19 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Enter an Emergency Situation"
         android:id="@+id/Choice"
+        android:textSize="40dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:textSize="26dp" />
+        android:layout_centerHorizontal="true" />
 
     <RadioGroup
         android:layout_width="fill_parent"
         android:layout_height="250dp"
-        android:layout_below="@+id/Choice"
-        android:layout_alignLeft="@+id/Choice"
-        android:layout_alignStart="@+id/Choice"
-        android:layout_marginTop="37dp"
         android:id="@+id/Radio1"
-        android:minHeight="50dp">
+        android:minHeight="50dp"
+        android:layout_below="@+id/Choice"
+        android:layout_above="@+id/submit_area"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
 
         <RadioButton
@@ -38,7 +37,8 @@
             android:text="Fire"
             android:id="@+id/Fire"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ffe90f00" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -46,7 +46,8 @@
             android:text="Earthquake"
             android:id="@+id/Earth"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ff8c5e12" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -54,18 +55,23 @@
             android:text="Tsunami"
             android:id="@+id/Water"
             android:checked="false"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="#ff1423a9" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Submit"
-            android:id="@+id/submit_area"
-            android:layout_gravity="center_horizontal" />
+
 
 
     </RadioGroup>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_area"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp" />
 
 </RelativeLayout>
 <!-- From: file:/C:/MyEA/app/src/main/res/layout/activity_my_activity2.xml -->

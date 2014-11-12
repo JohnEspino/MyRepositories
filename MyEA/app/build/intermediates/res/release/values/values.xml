@@ -547,10 +547,12 @@
 
     <string name="action_settings">Settings</string>
     <string name="app_name">MyEA ( Emergency Application )</string>
+    <string name="hello_world">Hello world!</string>
     <string name="title_activity_my_activity2">MyEA ( Emergency Application )</string>
     <string name="title_activity_my_activity3">MyEA ( Emergency Application )</string>
     <string name="title_activity_my_activity4">MyEA ( Emergency Application )</string>
     <string name="title_activity_my_activity5">MyEA ( Emergency Application )</string>
+    <string name="title_activity_my_activity6">MyActivity6</string>
     <!-- From: file:/C:/MyEA/app/src/main/res/values/styles.xml -->
     <eat-comment />
 

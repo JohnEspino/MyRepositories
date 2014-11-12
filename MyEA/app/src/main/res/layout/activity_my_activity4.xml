@@ -6,28 +6,32 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.project.MyEA.myea.MyActivity4">
+    tools:context="com.project.MyEA.myea.MyActivity4"
+    android:background="#CCCCFF"
+    >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Emergency Hotlines"
-        android:id="@+id/FireCall"
+        android:text="Emergency"
+        android:id="@+id/EarthCall"
+        android:textSize="45dp"
+        android:singleLine="false"
+        android:textAlignment="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="50dp"
-        android:singleLine="false"
-        android:textAlignment="center" />
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="09991600789"
-        android:id="@+id/num12"
+        android:text="(02)426-1468"
+        android:id="@+id/callPV"
         android:textSize="30dp"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/EarthDept"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -35,21 +39,101 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Earth Department"
+        android:text="PHILVOCS"
         android:id="@+id/EarthDept"
-        android:layout_above="@+id/num12"
+        android:textSize="30dp"
+        android:textColor="#ff8c5e12"
+        android:layout_below="@+id/CallEArth"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="35dp" />
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Call"
         android:id="@+id/CallDept"
-        android:layout_toEndOf="@+id/num12"
-        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/callPV"
+        android:layout_above="@+id/mnltraffic"
+        android:layout_toRightOf="@+id/callPV"
+        android:layout_alignRight="@+id/callMTH"
+        android:layout_alignEnd="@+id/callMTH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manila Traffic Hotline"
+        android:id="@+id/mnltraffic"
+        android:layout_below="@+id/callPV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:textColor="#ff8c5e12"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(02)527-3087"
+        android:id="@+id/numMNL"
+        android:layout_below="@+id/mnltraffic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/callMTH"
+        android:layout_toEndOf="@+id/numMNL"
+        android:layout_alignTop="@+id/numMNL"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red Cross"
+        android:id="@+id/RCOne"
+        android:layout_below="@+id/callMTH"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textColor="#ff8c5e12"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="143"
+        android:id="@+id/numRC1"
+        android:layout_below="@+id/RCOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/callRC1"
+        android:layout_below="@+id/RCOne"
+        android:layout_alignRight="@+id/callMTH"
+        android:layout_alignEnd="@+id/callMTH"
+        android:layout_alignLeft="@+id/callMTH"
+        android:layout_alignStart="@+id/callMTH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotlines"
+        android:id="@+id/CallEArth"
+        android:layout_below="@+id/EarthCall"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
 </RelativeLayout>

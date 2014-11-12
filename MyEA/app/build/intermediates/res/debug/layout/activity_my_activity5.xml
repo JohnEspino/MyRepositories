@@ -6,7 +6,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.project.MyEA.myea.MyActivity5">
+    tools:context="com.project.MyEA.myea.MyActivity5"
+    android:background="#CCCCFF">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,7 @@
         android:id="@+id/WaterCall"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="50dp"
+        android:textSize="48dp"
         android:singleLine="false"
         android:textAlignment="center" />
 
@@ -24,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="09991600789"
-        android:id="@+id/num13"
+        android:text="(02)162-700"
+        android:id="@+id/numMWH"
         android:textSize="30dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
@@ -35,22 +36,87 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Water Department"
+        android:text="Manila Water Hotline"
         android:id="@+id/WaterDept"
-        android:layout_above="@+id/num13"
+        android:layout_above="@+id/numMWH"
         android:layout_below="@+id/WaterCall"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="35dp" />
+        android:textSize="30dp"
+        android:textColor="#ff1423a9" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Call"
         android:id="@+id/CallDept"
-        android:layout_toEndOf="@+id/num13"
+        android:layout_toEndOf="@+id/numMWH"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Philippine Coast Guard"
+        android:id="@+id/Call"
+        android:layout_below="@+id/CallDept"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:textColor="#ff1423a9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0918964697"
+        android:id="@+id/numPCG"
+        android:layout_below="@+id/Call"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/callPCG"
+        android:layout_below="@+id/Call"
+        android:layout_alignLeft="@+id/CallDept"
+        android:layout_alignStart="@+id/CallDept"
+        android:layout_alignRight="@+id/CallDept"
+        android:layout_alignEnd="@+id/CallDept" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red Cross"
+        android:id="@+id/RCTwo"
+        android:layout_below="@+id/numPCG"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textColor="#ff1423a9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="143"
+        android:id="@+id/numRC2"
+        android:layout_below="@+id/RCTwo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/callRC2"
+        android:layout_below="@+id/RCTwo"
+        android:layout_toRightOf="@+id/numMWH"
+        android:layout_toEndOf="@+id/numMWH"
+        android:layout_alignRight="@+id/callPCG"
+        android:layout_alignEnd="@+id/callPCG" />
 </RelativeLayout>
 <!-- From: file:/C:/MyEA/app/src/main/res/layout/activity_my_activity5.xml -->
